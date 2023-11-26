@@ -1,0 +1,17 @@
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NortWind.DataAccess.deps.json
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NortWind.DataAccess.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NortWind.DataAccess.pdb
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NorthWind.Models.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NorthWind.UnitOfWork.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NortWind.Repositories.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NorthWind.UnitOfWork.pdb
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NortWind.Repositories.pdb
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\bin\Debug\netcoreapp3.1\NorthWind.Models.pdb
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\obj\Debug\netcoreapp3.1\NortWind.DataAccess.csproj.AssemblyReference.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\obj\Debug\netcoreapp3.1\NortWind.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\obj\Debug\netcoreapp3.1\NortWind.DataAccess.AssemblyInfoInputs.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\obj\Debug\netcoreapp3.1\NortWind.DataAccess.AssemblyInfo.cs
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\obj\Debug\netcoreapp3.1\NortWind.DataAccess.csproj.CoreCompileInputs.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\obj\Debug\netcoreapp3.1\NortWind.DataAccess.csproj.CopyComplete
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\obj\Debug\netcoreapp3.1\NortWind.DataAccess.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.DataAccess\obj\Debug\netcoreapp3.1\NortWind.DataAccess.pdb

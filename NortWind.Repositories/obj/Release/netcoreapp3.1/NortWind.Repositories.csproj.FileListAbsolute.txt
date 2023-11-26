@@ -1,0 +1,13 @@
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\bin\Release\netcoreapp3.1\NortWind.Repositories.deps.json
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\bin\Release\netcoreapp3.1\NortWind.Repositories.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\bin\Release\netcoreapp3.1\NortWind.Repositories.pdb
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\bin\Release\netcoreapp3.1\NorthWind.Models.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\bin\Release\netcoreapp3.1\NorthWind.Models.pdb
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\obj\Release\netcoreapp3.1\NortWind.Repositories.csproj.AssemblyReference.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\obj\Release\netcoreapp3.1\NortWind.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\obj\Release\netcoreapp3.1\NortWind.Repositories.AssemblyInfoInputs.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\obj\Release\netcoreapp3.1\NortWind.Repositories.AssemblyInfo.cs
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\obj\Release\netcoreapp3.1\NortWind.Repositories.csproj.CoreCompileInputs.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\obj\Release\netcoreapp3.1\NortWind.Repositories.csproj.CopyComplete
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\obj\Release\netcoreapp3.1\NortWind.Repositories.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NortWind.Repositories\obj\Release\netcoreapp3.1\NortWind.Repositories.pdb

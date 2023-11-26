@@ -1,0 +1,10 @@
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\bin\Debug\netcoreapp3.1\NorthWind.Models.deps.json
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\bin\Debug\netcoreapp3.1\NorthWind.Models.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\bin\Debug\netcoreapp3.1\NorthWind.Models.pdb
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\obj\Debug\netcoreapp3.1\NorthWind.Models.csproj.AssemblyReference.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\obj\Debug\netcoreapp3.1\NorthWind.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\obj\Debug\netcoreapp3.1\NorthWind.Models.AssemblyInfoInputs.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\obj\Debug\netcoreapp3.1\NorthWind.Models.AssemblyInfo.cs
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\obj\Debug\netcoreapp3.1\NorthWind.Models.csproj.CoreCompileInputs.cache
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\obj\Debug\netcoreapp3.1\NorthWind.Models.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.Models\obj\Debug\netcoreapp3.1\NorthWind.Models.pdb
