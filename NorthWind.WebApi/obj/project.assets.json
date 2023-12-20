@@ -1103,6 +1103,19 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "NorthWind.BusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "NorthWind.UnitOfWork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NorthWind.BusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.BusinessLogic.dll": {}
+        }
+      },
       "NorthWind.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -4369,6 +4382,11 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "NorthWind.BusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.BusinessLogic/NorthWind.BusinessLogic.csproj",
+      "msbuildProject": "../NorthWind.BusinessLogic/NorthWind.BusinessLogic.csproj"
+    },
     "NorthWind.Models/1.0.0": {
       "type": "project",
       "path": "../NorthWind.Models/NorthWind.Models.csproj",
@@ -4395,6 +4413,7 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.32",
       "Microsoft.IdentityModel.Tokens >= 7.0.2",
       "NortWind.DataAccess >= 1.0.0",
+      "NorthWind.BusinessLogic >= 1.0.0",
       "NorthWind.UnitOfWork >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 7.0.2"
     ]
@@ -4431,6 +4450,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\CAPACITACIONES\\NorthWindSolution\\NorthWindSolution\\NorthWind.BusinessLogic\\NorthWind.BusinessLogic.csproj": {
+              "projectPath": "C:\\CAPACITACIONES\\NorthWindSolution\\NorthWindSolution\\NorthWind.BusinessLogic\\NorthWind.BusinessLogic.csproj"
+            },
             "C:\\CAPACITACIONES\\NorthWindSolution\\NorthWindSolution\\NorthWind.UnitOfWork\\NorthWind.UnitOfWork.csproj": {
               "projectPath": "C:\\CAPACITACIONES\\NorthWindSolution\\NorthWindSolution\\NorthWind.UnitOfWork\\NorthWind.UnitOfWork.csproj"
             },

@@ -34,6 +34,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.32",
           "Microsoft.IdentityModel.Tokens": "7.0.2",
           "NortWind.DataAccess": "1.0.0",
+          "NorthWind.BusinessLogic": "1.0.0",
           "NorthWind.UnitOfWork": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "7.0.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -976,6 +977,17 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
+        }
+      },
+      "NorthWind.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "NorthWind.UnitOfWork": "1.0.0"
+        },
+        "runtime": {
+          "NorthWind.BusinessLogic.dll": {}
+        },
+        "compile": {
+          "NorthWind.BusinessLogic.dll": {}
         }
       },
       "NorthWind.Models/1.0.0": {
@@ -3172,6 +3184,11 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "NorthWind.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "NorthWind.Models/1.0.0": {
       "type": "project",

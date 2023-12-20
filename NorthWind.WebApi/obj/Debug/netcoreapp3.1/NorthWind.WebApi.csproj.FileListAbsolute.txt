@@ -25,10 +25,12 @@ C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NorthWind.BusinessLogic.dll
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NorthWind.Models.dll
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NorthWind.UnitOfWork.dll
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NortWind.DataAccess.dll
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NortWind.Repositories.dll
+C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NorthWind.BusinessLogic.pdb
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NorthWind.UnitOfWork.pdb
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NortWind.DataAccess.pdb
 C:\CAPACITACIONES\NorthWindSolution\NorthWindSolution\NorthWind.WebApi\bin\Debug\netcoreapp3.1\NorthWind.Models.pdb

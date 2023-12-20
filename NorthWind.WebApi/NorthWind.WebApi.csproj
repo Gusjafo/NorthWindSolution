@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NorthWind.BusinessLogic\NorthWind.BusinessLogic.csproj" />
     <ProjectReference Include="..\NorthWind.UnitOfWork\NorthWind.UnitOfWork.csproj" />
     <ProjectReference Include="..\NortWind.DataAccess\NortWind.DataAccess.csproj" />
   </ItemGroup>

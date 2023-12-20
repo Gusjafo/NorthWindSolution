@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NorthWind.BusinessLogic.Implementations;
+using NorthWind.BusinessLogic.Interfaces;
 using NorthWind.UnitOfWork;
 using NorthWind.WebApi.Authentication;
 using NorthWind.WebApi.GlobalErrorHandling;
@@ -26,6 +28,10 @@ namespace NorthWind.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<ISupplierLogic, SupplierLogic>();
+            services.AddTransient<IOrderLogic, OrderLogic>();
+            services.AddTransient<ICustomerLogic, CustomerLogic>();
+            services.AddTransient<ITokenLogic, TokenLogic>();
             services.AddSingleton<IUnitOfWork>(option => new NorthWindUnitOfWork(
                 Configuration.GetConnectionString("Northwind")
                 ));

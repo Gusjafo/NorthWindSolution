@@ -14,15 +14,16 @@ namespace NortWind.DataAccess
         {
         }
 
-        public IEnumerable<Supplier> SupplierPagedList(int page, int rows)
+        public IEnumerable<SupplierList> SupplierPagedList(int page, int rows, string key)
         {
             var parameters = new DynamicParameters();
             parameters.Add("@page", page);
             parameters.Add("@rows", rows);
+            parameters.Add("@searchTerm", key);
 
             using (var conn = new SqlConnection(_connectionString))
             {
-                return conn.Query<Supplier>("dbo.SupplierPagedList", parameters, commandType: System.Data.CommandType.StoredProcedure);
+                return conn.Query<SupplierList>("dbo.SupplierPagedList", parameters, commandType: System.Data.CommandType.StoredProcedure);
             }
 
         }

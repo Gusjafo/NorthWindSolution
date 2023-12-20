@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using NorthWind.BusinessLogic.Interfaces;
 using NorthWind.Models;
 using NorthWind.UnitOfWork;
+using NorthWind.WebApi.Models;
 
 namespace NorthWind.WebApi.Controllers
 {
@@ -10,24 +12,24 @@ namespace NorthWind.WebApi.Controllers
     [Authorize]
     public class SupplierController : Controller
     {
-        private readonly IUnitOfWork _unitOfWork;
-        public SupplierController(IUnitOfWork unitOfWork)
+        private readonly ISupplierLogic _logic;
+        public SupplierController(ISupplierLogic logic)
         {
-            _unitOfWork = unitOfWork;
+            _logic = logic;
         }
 
         [HttpGet]
         [Route("{id:int}")]
         public IActionResult GetById(int id)
         {
-            return Ok(_unitOfWork.Supplier.GetById(id));
+            return Ok(_logic.GetById(id));
         }
 
-        [HttpGet]
-        [Route("GetPaginatedSupplier/{page:int}/{rows:int}")]
-        public IActionResult GetPaginatedSupplier(int page, int rows)
+        [HttpPost]
+        [Route("GetPaginatedSupplier")]
+        public IActionResult GetPaginatedSupplier([FromBody] GetPaginatedSupplier request)
         {
-            return Ok(_unitOfWork.Supplier.SupplierPagedList(page, rows));
+            return Ok(_logic.SupplierPagedList(request.Page, request.Rows, request.SearchTerm));
         }
 
         [HttpPost]
@@ -38,13 +40,13 @@ namespace NorthWind.WebApi.Controllers
                 return BadRequest();
             }
 
-            return Ok(_unitOfWork.Supplier.Insert(supplier));
+            return Ok(_logic.Insert(supplier));
         }
 
         [HttpPut]
         public IActionResult Put([FromBody] Supplier supplier)
         {
-            if (ModelState.IsValid && _unitOfWork.Supplier.Update(supplier))
+            if (ModelState.IsValid && _logic.Update(supplier))
             {
                 return Ok(new { Message = "The Supplier is Updated" });
             }
@@ -54,7 +56,7 @@ namespace NorthWind.WebApi.Controllers
         [HttpDelete]
         public IActionResult Delete([FromBody] Supplier supplier) 
         {
-            if (supplier.Id > 0 && _unitOfWork.Supplier.Delete(supplier))
+            if (supplier.Id > 0 && _logic.Delete(supplier))
             {
                 return Ok(new { Message = "The Supplier has been deleted" });
             }

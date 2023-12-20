@@ -37,7 +37,7 @@ namespace NortWind.DataAccess
             }
         }
 
-        public OrderList GetOrderById(int orderId)
+        public new OrderList GetById(int orderId)
         {
             var parameters = new DynamicParameters();
             parameters.Add("@orderId", orderId);
@@ -57,5 +57,26 @@ namespace NortWind.DataAccess
                 return order;
             }
         }
+
+        public bool Delete(OrderList entity)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public bool Update(OrderList entity)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public int Insert(OrderList entity)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        IEnumerable<Order> IRepository<Order>.GetList()
+        {
+            throw new System.NotImplementedException();
+        }
+
     }
 }
